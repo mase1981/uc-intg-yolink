@@ -1,0 +1,39 @@
+{
+  "driver_id": "uc_intg_yolink",
+  "version": "1.0.0",
+  "min_core_api": "0.22.0",
+  "name": {
+    "en": "YoLink"
+  },
+  "icon": "uc:home",
+  "description": {
+    "en": "Control YoLink smart-home devices from your YoLink account using User Access Credentials. Turn switches, outlets, and valve controllers on and off, and monitor temperature/humidity sensors, door, motion, leak, and vibration sensors, and battery levels. Realtime updates arrive over YoLink's cloud, with polling as a fallback. All supported devices on the account are added automatically."
+  },
+  "developer": {
+    "name": "Meir Miyara",
+    "email": "meir.miyara@gmail.com",
+    "url": "https://github.com/mase1981"
+  },
+  "home_page": "https://github.com/mase1981/uc-intg-yolink",
+  "release_date": "2026-09-04",
+  "setup_data_schema": {
+    "title": {
+      "en": "YoLink Account"
+    },
+    "settings": [
+      {
+        "id": "info",
+        "label": {
+          "en": "YoLink Account"
+        },
+        "field": {
+          "label": {
+            "value": {
+              "en": "In the YoLink app, open Account -> Advanced Settings -> User Access Credentials and tap Generate. On the next screen, enter the User Access Id (UAID) and Secret Key. All supported devices on the account will be added."
+            }
+          }
+        }
+      }
+    ]
+  }
+}
